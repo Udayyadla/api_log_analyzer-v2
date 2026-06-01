@@ -1,0 +1,9 @@
+timestamp,user,method,path,status,response_time
+2026-05-30 10:01:00,alice,GET,/login,200,120
+2026-05-30 10:01:05,bob,POST,/checkout,500,350
+2026-05-30 10:01:10,alice,GET,/products,404,90
+2026-05-30 10:01:15,charlie,GET,/login,200,80
+2026-05-30 10:01:20,bob,GET,/checkout,200,210
+bad-date,david,GET,/home,200,100
+2026-05-30 10:01:25,eve,POST,/pay,abc,300
+2026-05-30 10:01:30,alice,GET,/products,200,110
